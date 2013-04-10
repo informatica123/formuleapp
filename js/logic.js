@@ -13,6 +13,14 @@ function testCam() {
 	});
 }
 
+function optellen() {
+	var getal1 = parseInt($('#getal1').val());
+	var getal2 = parseInt($('#getal2').val());
+	var antwoord = getal1 + getal2;
+	
+	$('#uitkomst').text(getal1 + ' + ' + getal2 + ' = ' + antwoord);
+}
+
 var app = {
     // Application Constructor
     initialize: function() {
