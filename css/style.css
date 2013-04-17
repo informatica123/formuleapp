@@ -26,7 +26,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
-#theForm input {
+#theForm input#straal {
 	background: #fff;
 	color: #000;
 }
