@@ -21,6 +21,14 @@ function rekenen() {
 	$('#uitkomst').text("De oppervlakte is " + antwoord);
 }
 
+function rekenen2() {
+	var lengte = parseInt($('#lengte').val());
+	var breedte = parseInt($('#breedte').val());
+	var antwoord = lengte * breedte;
+	
+	$('#uitkomst').text("De oppervlakte is " + antwoord);
+}
+
 var app = {
     // Application Constructor
     initialize: function() {

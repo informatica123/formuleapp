@@ -16,22 +16,27 @@
 		<script src="js/logic.js" type="text/javascript"></script>
 		<link href="css/style.css" rel="stylesheet" />
 	</head>
-
-	<body>
-		<div id="main-container">
-			<h1>De formule app!</h1>
-			<!-- <a href="#" onclick="testCam()">Test Camera</a>
-			<a href='formule.html'>Ga naar app</a>       -->
-		</div>
+<body>
+	<h3>Rekenen</h3>
+	<form action="#" method="post" id="theForm">
+		<table cellspacing="5" cellpadding="0" width="50%">
 		
-		
-<center> <h2> </br>
-<a href="rekenen.html"> Oppervlakte cirkel</a></br></br>
-<a href="rekenen2.html"> Oppervlakte rechthoek</a></br></br>
-<a href="index.html"> Formule3</a></br></br>
-<a href="index.html"> Formule4</a></br></br>
-<a href="index.html"> Formule5</a></br></br>
-
-
-	</body>
-</html>
+			<tr>
+				<td> Lengte van de rechthoek: </td>
+				<td><input type="text" name="GetalVeld1" size="50" id="lengte" /></td>
+			</tr>
+			
+			tr>
+				<td> Breedte van de rechthoek: </td>
+				<td><input type="text" name="GetalVeld2" size="50" id="breedte" /></td>
+			</tr>
+			
+				
+		</table>
+		<a href="#" onclick="rekenen2()">rekenen</a>
+	</form>
+	
+	<p id="uitkomst">
+	</p>
+</body>
+<html>
