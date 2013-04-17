@@ -13,12 +13,12 @@ function testCam() {
 	});
 }
 
-function optellen() {
-	var getal1 = parseInt($('#getal1').val());
-	var getal2 = parseInt($('#getal2').val());
-	var antwoord = getal1 + getal2;
+function rekenen() {
+	var straal = parseInt($('#straal').val());
+	var pi = Math.PI;
+	var antwoord = straal * straal * pi;
 	
-	$('#uitkomst').text(getal1 + ' + ' + getal2 + ' = ' + antwoord);
+	$('#uitkomst').text("De oppervlakte is " + antwoord);
 }
 
 var app = {
