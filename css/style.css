@@ -30,3 +30,13 @@ a:hover, a:active {
 	background: #fff;
 	color: #000;
 }
+
+#theForm input#lengte {
+	background: #fff;
+	color: #000;
+}
+
+#theForm input#breedte {
+	background: #fff;
+	color: #000;
+}
