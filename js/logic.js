@@ -29,6 +29,13 @@ function rekenen2() {
 	$('#uitkomst').text("De oppervlakte is " + antwoord);
 }
 
+function rekenen3() {
+	var straal = parseInt($('#straal').val());
+	var pi = Math.PI;
+	var antwoord = 2 * straal * pi;
+	
+	$('#uitkomst').text("De omtrek is " + antwoord);
+}
 var app = {
     // Application Constructor
     initialize: function() {
