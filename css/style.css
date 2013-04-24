@@ -1,6 +1,7 @@
 body {
 	font-family: 'Helvetica Neue';
-	background-image:url('rekenenplaatje.jpg');}
+	background: #7BCDDD;
+	background-image:url('deformuleapp.jpg');
 	color: #ffffff;
 	font-size: 18px;
 }
