@@ -2,7 +2,7 @@ body {
 	font-family: 'Helvetica Neue';
 	background: #7BCDDD;
 	background-image:url('deformuleapp.jpg');
-	color: #ffffff;
+	color: #1FABBA;
 	font-size: 18px;
 }
 
@@ -29,15 +29,15 @@ a:hover, a:active {
 
 #theForm input#straal {
 	background: #fff;
-	color: #000;
+	color: #5C56CD;
 }
 
 #theForm input#lengte {
 	background: #fff;
-	color: #000;
+	color: #5C56CD;
 }
 
 #theForm input#breedte {
 	background: #fff;
-	color: #000;
+	color: #5C56CD;
 }
