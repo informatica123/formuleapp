@@ -11,7 +11,11 @@ function testCam() {
 		quality: 50,
 		destinationType: Camera.DestinationType.DATA_URL 
 	});
+	
 }
+
+function img1click() 
+{document.IMG.src="oppervlaktecirkel.jpg" onclick="rekenen.html";}
 
 function rekenen() {
 	var straal = parseInt($('#straal').val());
