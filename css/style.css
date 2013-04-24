@@ -23,21 +23,21 @@ a:link, a:visited {
 a:hover, a:active {
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #FCC2C9;
 	text-decoration: none;
 }
 
 #theForm input#straal {
-	background: #fff;
+	background: #FCC2C9;
 	color: #5C56CD;
 }
 
 #theForm input#lengte {
-	background: #fff;
+	background: #FCC2C9;
 	color: #5C56CD;
 }
 
 #theForm input#breedte {
-	background: #fff;
+	background: #FCC2C9;
 	color: #5C56CD;
 }
